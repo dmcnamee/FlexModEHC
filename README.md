@@ -21,7 +21,7 @@ conda install -c conda-forge opencv
 
 ## Explanation
 * Package is based on a set of core classes which form a chain of inheritances:  
-  ENVIRONMENTS -> GENERATORS -> PROPAGATORS -> SIMULATORS -> EXPLORER/LEARNER
+  ENVIRONMENT -> GENERATOR -> PROPAGATOR -> SIMULATOR -> EXPLORER/LEARNER
 * A GENERATOR is constructed from an ENVIRONMENT. For example, an environment transition matrix may be used to form a generator matrix.
 * A PROPAGATOR takes a GENERATOR (along with several parameters as arguments) and uses eigen-decompositions to form a matrix solution to the master equation defined by the GENERATOR.
 * A SIMULATOR uses a PROPAGATOR to sample trajectories in the ENVIRONMENT.
