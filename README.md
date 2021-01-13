@@ -11,7 +11,12 @@ conda install -c conda-forge gym
 conda install -c pyviz holoviews
 pip install git+https://github.com/zuoxingdong/mazelab.git
 pip install git+https://github.com/dmcnamee/FlexModEHC.git
-FIGURE_S8 requires torch [conda install pytorch] and opencv [conda install -c conda-forge opencv]
+```
+
+FIGURE_S8 requires torch and opencv
+```
+conda install pytorch
+conda install -c conda-forge opencv
 ```
 
 ## Explanation
