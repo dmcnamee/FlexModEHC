@@ -12,7 +12,7 @@ conda install -c pyviz holoviews
 pip install git+https://github.com/zuoxingdong/mazelab.git
 pip install git+https://github.com/dmcnamee/FlexModEHC.git
 FIGURE_S8 requires torch [conda install pytorch] and opencv [conda install -c conda-forge opencv]
-'''
+```
 
 ## Explanation
 * Package is based on a set of core classes which form a chain of inheritances:
