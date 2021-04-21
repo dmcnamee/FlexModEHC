@@ -2,6 +2,11 @@
 
 This code was used for studying the **flexible modulation of sequence generation in the entorhinal-hippocampal system**.
 
+* [Nature Neuroscience](https://www.nature.com/articles/s41593-021-00831-7)
+* [Non-paywall version (view only)](https://rdcu.be/ciybE)
+
+
+
 ## Installation using Anaconda
 ```
 conda create -n FlexModEHC python=3.8
