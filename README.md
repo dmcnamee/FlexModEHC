@@ -15,7 +15,7 @@ conda install numpy scipy pandas seaborn networkx scikit-learn numba
 conda install -c conda-forge gym
 conda install -c pyviz holoviews
 pip install git+https://github.com/zuoxingdong/mazelab.git
-pip install git+https://github.com/dmcnamee/FlexModEHC.git
+git clone https://github.com/dmcnamee/FlexModEHC.git
 ```
 
 FIGURE_S8 requires torch and opencv
